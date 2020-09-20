@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <title>To-Do List App</title>
+</head>
+<body>
+  <header id="content-header"> 
+    <!-- style="text-align: center;"> -->
+      <h2><span>ToDo</span> List</h2>
+  </header>
+  <!-- <p id="content-header"> <h2><span>ToDo</span> List</h2> </p> -->
+  <hr>
+    <div id="search-box">
+      <textarea rows="2" cols="30"  placeholder="write a task to-do..." id="addText"></textarea>
+      <!-- <input type="textarea" placeholder="add task"> -->
+      <input type="hidden" id="saveText">
+      <button id="addBtn">Add Task</button>
+      <button id="saveBtn">Save Task</button>
+      <button id="deleteAll">Delete All</button>
+
+      <p id="total-tasks">Total Tasks: <span id="tasks-counter">0</span></p>
+    </div>
+
+    <div id="list-box">
+        
+    </div>
+
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
